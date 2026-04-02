@@ -56,11 +56,5 @@ Once the app is running, visit:
     mvn spring-boot:run
     ```
 
----
 
-### 💼 Interview Talking Points
-When asked about this project, focus on these three things:
-1.  "I didn't use `GET` for adding data because it's an anti-pattern. I implemented a proper **POST with @RequestBody**."
-2.  "I used **Hibernate DDL-auto** for schema management but kept my **DDL-auto as 'update'** to preserve data during development."
-3.  "I integrated **Swagger** because in a 6 LPA+ role, I expect to work with a Frontend team, and they need clear API contracts."
 
